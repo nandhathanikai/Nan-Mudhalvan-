@@ -1,16 +1,48 @@
-# Online Complaint Registration System
+# Book a Doctor
 
-The **Online Complaint Registration System** is a backend application designed to streamline the registration and tracking of complaints. Built with Node.js, this project provides a robust foundation for developing web applications that involve complaint management workflows.
+## 📖 Project Overview  
+**Book a Doctor** is a web application developed using the MERN stack (MongoDB, Express.js, React.js, and Node.js). The platform connects patients with doctors, enabling patients to book, reschedule, and cancel appointments while helping doctors manage their schedules efficiently. This project is designed to simplify the appointment booking process and provide a seamless user experience.
 
 ---
 
-## Features
+## 🚀 Features  
 
-- **Dynamic Configuration**: Easily customize settings using the `config.js` file.
-- **Scalable Backend**: Built with a modular structure to facilitate future enhancements.
-- **Dependency Management**: Includes all required Node.js packages for seamless functionality.
-- **RESTful API Support**: Easily integrates with frontend systems for handling user requests.
-- **Error Handling**: Predefined patterns for debugging and managing application errors.
+### For Patients:  
+- **User Registration and Login**: Secure authentication using JWT.  
+- **Search Doctors**: Search doctors by specialty, location, or availability.  
+- **Book Appointments**: Easy booking with preferred dates and times.  
+- **View Appointment History**: Track all past and upcoming appointments.  
+- **Cancel/Reschedule Appointments**: Flexibility to manage appointments.  
+
+### For Doctors:  
+- **Profile Management**: Add personal and professional details.  
+- **Appointment Management**: View, approve, or cancel appointments.  
+- **Schedule Availability**: Define available time slots for appointments.  
+
+---
+
+## 🛠️ Tech Stack  
+
+### Frontend:  
+- **React.js**: UI development.  
+- **React Router**: For navigation.  
+- **Axios**: For API calls.  
+
+### Backend:  
+- **Node.js**: Server-side logic.  
+- **Express.js**: Backend framework for routing and middleware.  
+
+### Database:  
+- **MongoDB**: NoSQL database for storing data.  
+
+### Other Tools & Libraries:  
+- **Multer**: For file uploads.  
+- **Dotenv**: For environment variables.  
+- **Cors**: To handle cross-origin requests.  
+- **Bcrypt.js**: For password encryption.  
+- **JSON Web Token (JWT)**: For secure authentication.  
+
+---
 
 ---
 
